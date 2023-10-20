@@ -28,5 +28,4 @@ from "dev".public."airline_scd"
 where 1 = 1
 and _airbyte_active_row = 1
 
-  );
   
