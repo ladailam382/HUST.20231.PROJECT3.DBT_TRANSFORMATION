@@ -13,7 +13,7 @@ with source_data as (
 
     select
     type_id, 
-    indentifier,
+    identifier,
     "description"
     from airplane_type
 
