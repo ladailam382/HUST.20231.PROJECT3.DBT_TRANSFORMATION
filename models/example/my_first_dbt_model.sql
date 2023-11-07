@@ -26,7 +26,7 @@ with source_data as (
     _airbyte_emitted_at,
     getdate() as _airbyte_normalized_at,
     _airbyte_airline_hashid
-    from "dev".public."airline_scd"
+    from "airport_dwh".public."airline_scd"
     -- airline from "dev".public._airbyte_raw_airline
     where 1 = 1
     and _airbyte_active_row = 1
