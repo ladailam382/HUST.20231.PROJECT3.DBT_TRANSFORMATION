@@ -15,7 +15,7 @@ with source_data as (
     type_id, 
     indentifier,
     "description"
-    from "airportdb"."airplane_type"
+    from "airportdb".public."airplane_type"
 
 
 )
